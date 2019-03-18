@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Exceptions;
+namespace DockerManager\Exceptions;
 
 use Exception;
 

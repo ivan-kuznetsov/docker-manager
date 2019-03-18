@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace DockerManager;
 
 use Symfony\Component\Console\Application;
 use Symfony\Component\Console\CommandLoader\FactoryCommandLoader;
@@ -45,7 +45,7 @@ class Runner
 
     protected function loadCommands(): array
     {
-        $commandsFiles = FilesystemUtils::recursiveFileSearch('./app/Commands', '*.command.php');
+        $commandsFiles = FilesystemUtils::recursiveFileSearch('./src/Commands', '*.command.php');
         $commands = [];
 
         foreach ($commandsFiles as $command) {
@@ -54,6 +54,4 @@ class Runner
 
         return $commands;
     }
-
-
 }

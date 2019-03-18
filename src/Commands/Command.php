@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Commands;
+namespace DockerManager\Commands;
 
 use Symfony\Component\Console\Command\Command as SymfonyCommand;
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Commands\GreetingCommand;
+namespace DockerManager\Commands\GreetingCommand;
 
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputArgument;
-use App\Commands\Command;
+use DockerManager\Commands\Command;
 
 class GreetingCommand extends Command
 {

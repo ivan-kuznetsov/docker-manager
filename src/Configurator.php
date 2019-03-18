@@ -1,9 +1,9 @@
 <?php
 
-namespace App;
+namespace DockerManager;
 
 use Symfony\Component\Yaml\Yaml;
-use App\Exceptions\ConfigurationFileNotFound;
+use DockerManager\Exceptions\ConfigurationFileNotFound;
 
 class Configurator
 {

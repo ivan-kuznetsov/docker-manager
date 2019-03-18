@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace DockerManager;
 
 class FilesystemUtils
 {

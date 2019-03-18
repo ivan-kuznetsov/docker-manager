@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Commands\CreateCommand;
+namespace DockerManager\Commands\CreateCommand;
 
-use App\FilesystemUtils;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputArgument;
-use App\Commands\Command;
+use DockerManager\FilesystemUtils;
+use DockerManager\Commands\Command;
 
 class CreateCommand extends Command
 {
